@@ -6,7 +6,7 @@ loginButton.addEventListener("click", function(){
     transactionArea.style.display = "block";
 })
 
-// diposit
+// diposit function added
 
 const addDeposit = document.getElementById('addDiposit');
 addDeposit.addEventListener('click', function(){
@@ -33,7 +33,7 @@ function updateSpanText(id, dipositNumber) {
     
 }
 
-// Withdraw
+// Withdraw function added
 
 const withdrawBtn = document.getElementById('addWithdraw');
 withdrawBtn.addEventListener('click', function(){
